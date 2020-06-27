@@ -28,7 +28,7 @@
 | System / midrange | <img src="https://github.com/ThreeDP/COBOL-WINS/blob/master/img/logos/ibm.jpg" width="350"> | ILE COBOL |
 | MCP mainframe | <img src="https://github.com/ThreeDP/COBOL-WINS/blob/master/img/logos/unisys.png" width="350"> | UCS COBOL |
 | Windows | <img src="https://github.com/ThreeDP/COBOL-WINS/blob/master/img/logos/raincode.PNG" width="350"> | Raincode COBOL |
-| Windows / UNIX | <img src="https://github.com/ThreeDP/COBOL-WINS/blob/master/img/logos/micro-focus.png> | Visual COBOL |
+| Windows / UNIX | <img src="https://github.com/ThreeDP/COBOL-WINS/blob/master/img/logos/micro-focus.png>" width="350">| Visual COBOL |
 | Windows / UNIX | <img src="https://github.com/ThreeDP/COBOL-WINS/blob/master/img/logos/micro-focus.png" width="350"> | RM/COBOL |
 | Windows / UNIX | <img src="https://github.com/ThreeDP/COBOL-WINS/blob/master/img/logos/GTSoftware.jpg" width="350"> | NetCOBOL |
 | Windows / UNIX / MacOS| <img src="https://github.com/ThreeDP/COBOL-WINS/blob/master/img/logos/heirloom-computing.png" width="350"> | Elastic COBOL |
