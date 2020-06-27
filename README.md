@@ -15,7 +15,7 @@
 | 1968 | ANSI COBOL 68 | Foi neste peródo que o instituto ANSI (American National Standars institute - instituto nacional americano de padrões) produziu a primeira norma da lingauem |
 | 1985 | COBOL-85 | Foi introduzido a linguagem a possibilidade de escrever tanto com minusculas como em maiusculas o que não era possivel nas versões anteriores da linguagem, vale lembrar que a a linguagem COBOL não é mais case-sensitive e a escrita de comandos como "MOVE", "Move", "mOve" ou "move" são a mesma coisa na linguagem. ||
 | 2002 | COBOL-2002 | O paradgma de orientação a objetos foi adicionado a linguagem. |
-| 
+| 2014 | COBOL-2014 | Adicionado recursos para linguagem XML. |
 
 
 ### Compiladores 
