@@ -11,9 +11,18 @@
 | 1960 | COBOL-60 | Versão da linguagem lançada após sua primeira versão onde um padrão da linguagem foi estabelecido pelo comite  CODASYL (Committee on Data Systems Languages) financiado pelo Departamento de Defesa dos EUA (US Department of Defense) |
 | 1961 | COBOL-61 | Versão da linguagem lançada com revisões na linguagem COBOL |
 | 1963 | COBOL-61 Extended | Outra versão da linguagem com mais revisões da linguagem, nesse momento alguns dialetos da linguagem começam a surgir de acordo com o fabricante de computador. |
-| 1965 | COBOL-65 | 
+| 1965 | COBOL-65 | Lançado com revições |
+| 1968 | ANSI COBOL 68 | Foi neste peródo que o instituto ANSI (American National Standars institute - instituto nacional americano de padrões) produziu a primeira norma da lingauem |
+| 1985 | COBOL-85 | Foi introduzido a linguagem a possibilidade de escrever tanto com minusculas como em maiusculas o que não era possivel nas versões anteriores da linguagem, vale lembrar que a a linguagem COBOL não é mais case-sensitive e a escrita de comandos como "MOVE", "Move", "mOve" ou "move" são a mesma coisa na linguagem. ||
+| 2002 | COBOL-2002 | O paradgma de orientação a objetos foi adicionado a linguagem. |
+| 
 
 
+### Compiladores 
+
+| Sistema | Fornecedor | Compilador | 
+|---|---|---|
+| Windows / UNIX | ![](https://br.web.img3.acsta.net/medias/nmedia/18/70/78/60/19111647.jpg)) | desc |
 ### Palavras Reservadas
 
 | Comando | descrição |
@@ -25,4 +34,9 @@
 | STOP "Message" | Usado para fazer a pausa da execução de um programa COBOL enquanto aguarda a execução de alguma ação de algum operador. Normalmente usado juntamento com uma mensagem a ser exibida na tela. EX: STOP "Monte a fita". Raramente usado hoje em dia. |
 | STOP RUN | Usado para parar a execução de um programa. Normalmente usado no final do programa. |
 
+
+# Referêcias
+
+GnuCOBOL - Augusto Manzano
+Material IBM COBOL
 
