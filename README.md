@@ -67,14 +67,17 @@ ORGANIZAÇÃO DO CÓDIGO
 Informações sobre o ambiente onde o codigo será executado são atribuidas.
 Isso inclui detalhes como:
 
-- Arquivos a serem acessados e o metodo de acesso (INPUT, OUTPUT, SEQUENCIAL OU RANDOMICO).
-- Simbolo de moeda a usar ($, €, ₤, ¥, etc...)
-    
-    Exemplo:
-      CONFIGURATION SECTION      * Destinada para descrever a estrutura de configuração do ambiente, é composta pelos parágrafos.
-      SOURCE-COMPUTER            * Componente obrigatório. Descreve o padrão do computador programador.
-      OBJECT-COMPUTER            * Componente obrigatório. Descreve o padrão do computador usuário.
-      SPECIAL-NAMES
+- Arquivos a serem acessados e o metodo de acesso (INPUT, OUTPUT, SEQUENCIAL OU RANDOMICO);
+- Simbolo de moeda a usar ($, €, ₤, ¥, etc...);
+- Outros simbolos de caracteres usados;
+- Relacionar nomes de arquivos XML a arquivos (padrão para o COBOL-2014).
+- Nomes de classe orientado a objeto (padrão para o COBOL-2002).
+
+      Exemplo:
+        CONFIGURATION SECTION      * Destinada para descrever a estrutura de configuração do ambiente, é composta pelos parágrafos.
+        SOURCE-COMPUTER            * Componente obrigatório. Descreve o padrão do computador programador.
+        OBJECT-COMPUTER            * Componente obrigatório. Descreve o padrão do computador usuário.
+        SPECIAL-NAMES
       
       
 
