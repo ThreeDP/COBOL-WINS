@@ -41,7 +41,25 @@
 |---|---|---|---|
 |linhas numeradas que representam página e linha do código | Disponivel para indicar linhas de comentário ("*"), continuidade da sentence acima ("-") por exemplo. | Usado para definição de divisões, seções e parágrafos | Usado para definição de instruções a serem executadas |  
 
+    IDENTIFICATION DIVISION
+    ENVIRONMENT DIVISION
+    DATA DIVISION
+    PROCEDURE DIVISION
 
+**IDENTIFICATION DIVISION**
+> Nessa divisão informações sobre o programa são expecificadas, como o nome do programa por exemplo.
+    
+    Exemplo:
+      PROGRAMA-ID. NAME.       *Declaração do nome do programa.
+      FUNCTION-ID. NAME.       *Declaração do nome de uma função.
+      AUTHOR. NAME-AUTHOR.     *Declaração do nome do autor.
+
+***
+
+**ENVIRONMENT DIVISION**
+> Ne
+      
+      
 
 ### Palavras Reservadas
 
