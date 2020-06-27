@@ -35,10 +35,10 @@
   
 ### Estrutura de Programas COBOL
 
-| Colunas 1 a 6 | Coluna 7 | Colunas 8 a 72 |
-| | | Área A | Área B |
-|---|---|---|
-| | | |
+| Colunas 1 a 6 | Coluna 7 | Colunas 8 a 11 - Área A | Colunas 12 a 72 - Área B |
+|---|---|---|---|
+|linhas numeradas que representam página e linha do código | Disponivel para indicar linhas de comentário, continuidade da sentence acima e salto de formulário ( "*", "-", "\"). | Usado  
+
 
 
 ### Palavras Reservadas
