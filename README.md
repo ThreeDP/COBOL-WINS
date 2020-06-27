@@ -23,10 +23,11 @@
 | Sistema | Fornecedor | Compilador | 
 |---|---|---|
 | Windows / UNIX | Open Source | GNU COBOL |
-| AIX | ![IBM](https://github.com/ThreeDP/COBOL-WINS/blob/master/img/logos/ibm.jpg) | COBOL for AIX |
-| System z mainframe | ![IBM](https://github.com/ThreeDP/COBOL-WINS/blob/master/img/logos/ibm.jpg) | Enterprise COBOL |
-| System / midrange | ![IBM](https://github.com/ThreeDP/COBOL-WINS/blob/master/img/logos/ibm.jpg) | ILE COBOL |
-| MCP mainframe | ![UNISYS](https://github.com/ThreeDP/COBOL-WINS/blob/master/img/logos/unisys.png) | UCS COBOL |
+| AIX | <img src="https://github.com/ThreeDP/COBOL-WINS/blob/master/img/logos/ibm.jpg" width="350">) | COBOL for AIX |
+| System z mainframe | <img src="https://github.com/ThreeDP/COBOL-WINS/blob/master/img/logos/ibm.jpg" width="350"> | Enterprise COBOL |
+| System / midrange | <img src="https://github.com/ThreeDP/COBOL-WINS/blob/master/img/logos/ibm.jpg" width="350"> | ILE COBOL |
+| MCP mainframe | <img src="https://github.com/ThreeDP/COBOL-WINS/blob/master/img/logos/unisys.png" width="350"> | UCS COBOL |
+| Windows / UNIX | <img src="https://github.com/ThreeDP/COBOL-WINS/blob/master/img/logos/GTSoftware.jpg" width="350"> | NetCOBOL |
 ### Palavras Reservadas
 
 | Comando | descrição |
