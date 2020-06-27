@@ -1,12 +1,17 @@
 # Common Business Oriented Language (COBOL)
 > Proposta no ano de 1959 a linguagem é á linguagem COBOL tem grande influência em nosso dia a dia e nem se quer percebemos, isso por que ela está por trás de grande parte das operações bancárias e compras que fazemos, e embora entre outras linguagens sua fama não sejá a das maiores conserteza ela é uma das mais importantes linguagens atualmente.
 
+> A linguagem veio com o objetivo de ser compativel com diferentes tiposs de arquiteturas de computadores saindo um pouco do objetivo das linguagens da época que era voltadas para uso cientifico e matemático.
+
 **Em 1960 os primeiros padrões da linguagem surgem**
 
 | Ano de Proposta | Nome da Versão | Atualizações |
 |---|---|---|
 | 1959 | COBOL | A linguagem foi proposta com o objetivo de ser voltada ao desenvolvimento de aplicações comerciais, principalmente para o gerenciamento de apicações financeiras. |
-| 
+| 1960 | COBOL-60 | Versão da linguagem lançada após sua primeira versão onde um padrão da linguagem foi estabelecido pelo comite  CODASYL (Committee on Data Systems Languages) financiado pelo Departamento de Defesa dos EUA (US Department of Defense) |
+| 1961 | COBOL-61 | Versão da linguagem lançada com revisões na linguagem COBOL |
+| 1963 | COBOL-61 Extended | Outra versão da linguagem com mais revisões da linguagem, nesse momento alguns dialetos da linguagem começam a surgir de acordo com o fabricante de computador. |
+| 1965 | COBOL-65 | 
 
 
 ### Palavras Reservadas
