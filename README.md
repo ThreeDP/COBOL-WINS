@@ -42,7 +42,8 @@
 |linhas numeradas que representam página e linha do código | Disponivel para indicar linhas de comentário ("*"), continuidade da sentence acima ("-") por exemplo. | Usado para definição de divisões, seções e parágrafos | Usado para definição de instruções a serem executadas |  
 
 ***
-ORGANIZAÇÃO DO CÓDIGO
+### ORGANIZAÇÃO DO CÓDIGO
+***
 ***
 
     IDENTIFICATION DIVISION
