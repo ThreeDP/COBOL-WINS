@@ -15,8 +15,7 @@
 | 1968 | ANSI COBOL 68 | Foi neste peródo que o instituto ANSI (American National Standars institute - instituto nacional americano de padrões) produziu a primeira norma da lingauem |
 | 1985 | COBOL-85 | Foi introduzido a linguagem a possibilidade de escrever tanto com minusculas como em maiusculas o que não era possivel nas versões anteriores da linguagem, vale lembrar que a a linguagem COBOL não é mais case-sensitive e a escrita de comandos como "MOVE", "Move", "mOve" ou "move" são a mesma coisa na linguagem. ||
 | 2002 | COBOL-2002 | O paradgma de orientação a objetos foi adicionado a linguagem. |
-| 2014 | COBOL-2014 | Adicionado recursos para linguagem XML. |
-
+| 2014 | COBOL-2014 | Adicionado recursos para linguagem XML, atualmente em vigor. |
 
 ### Compiladores 
 
@@ -34,6 +33,13 @@
 | Windows / UNIX / MacOS| <img src="https://github.com/ThreeDP/COBOL-WINS/blob/master/img/logos/heirloom-computing.png" width="350"> | Elastic COBOL |
 | (any with Java JVM) | <img src="https://github.com/ThreeDP/COBOL-WINS/blob/master/img/logos/Veryant.png" width="350"> | isCOBOL |
   
+### Estrutura de Programas COBOL
+
+| Colunas 1 a 6 | Coluna 7 | Colunas 8 a 72 |
+| | | Área A | Área B |
+|---|---|---|
+| | | |
+
 
 ### Palavras Reservadas
 
@@ -41,6 +47,7 @@
 |-----|-----|
 | * | Usado para declarar comentarios. Disposto na 7º coluna. |
 | - | Usado para declarar a continuação de um comando que não coube em uma linha. Disposto na 7º coluna. |
+| \ | Usado para declarar o salto de formulário quando da impressão do código numa impressora. disposto na 7º coluna. |
 | PERFORM | Usado para passar o controle de uma section para outra. |
 | THRU ou THROUGH | Usado juntamento com o comando perform para executar uma seguencia de paragraph |
 | STOP "Message" | Usado para fazer a pausa da execução de um programa COBOL enquanto aguarda a execução de alguma ação de algum operador. Normalmente usado juntamento com uma mensagem a ser exibida na tela. EX: STOP "Monte a fita". Raramente usado hoje em dia. |
