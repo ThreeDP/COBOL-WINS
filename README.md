@@ -41,6 +41,10 @@
 |---|---|---|---|
 |linhas numeradas que representam página e linha do código | Disponivel para indicar linhas de comentário ("*"), continuidade da sentence acima ("-") por exemplo. | Usado para definição de divisões, seções e parágrafos | Usado para definição de instruções a serem executadas |  
 
+***
+ORGANIZAÇÃO DO CÓDIGO
+***
+
     IDENTIFICATION DIVISION
     ENVIRONMENT DIVISION
     DATA DIVISION
@@ -50,18 +54,42 @@
 > Nessa divisão informações sobre o programa são expecificadas, como o nome do programa por exemplo.
     
     Exemplo:
-      PROGRAMA-ID. NAME.       *Declaração do nome do programa.
+      PROGRAMA-ID. PROG_ALO.       *Declaração do nome do programa.
       FUNCTION-ID. NAME.       *Declaração do nome de uma função.
-      AUTHOR. NAME-AUTHOR.     *Declaração do nome do autor.
+      AUTHOR. NAME AUTHOR.     *Declaração do nome do autor.
 
-***
+> Normalmente utilizado somente para documentação e o compilador não irá compilar o que for implementado entendendo como comentário. O nome de referência deve possuir no máximo oito caracteres.
+---------
 
 **ENVIRONMENT DIVISION**
-> Ne
+> Nessa divisão o objetivo principal é descrever a configuração do computador usado na compilação e execução do programa. Detalhes dos periféricos em interação com a interface do programa são estabelecidas e essa divisão utiliza as seções: *CONFIGURATION* e *INPUT-OUTPUT*.
+    
+Informações sobre o ambiente onde o codigo será executado são atribuidas.
+Isso inclui detalhes como:
+
+- Arquivos a serem acessados e o metodo de acesso (INPUT, OUTPUT, SEQUENCIAL OU RANDOMICO).
+- Simbolo de moeda a usar ($, €, ₤, ¥, etc...)
+    
+    Exemplo:
+      CONFIGURATION SECTION      * Destinada para descrever a estrutura de configuração do ambiente, é composta pelos parágrafos.
+      SOURCE-COMPUTER            * Componente obrigatório. Descreve o padrão do computador programador.
+      OBJECT-COMPUTER            * Componente obrigatório. Descreve o padrão do computador usuário.
+      SPECIAL-NAMES
       
       
 
 ### Palavras Reservadas
+| Comando identification Division | descrição |
+|-----|-----|
+| PROGRAM-ID | É obrigátorio e tem a finalidade de identificar na memória o nome de referência do programa mas somente os oitos primeiros caracteres serão significativos |
+| AUTHOR | É opcional e tem a finalidade de identificar o desenvolvedor do código. |
+| INSTALLATION | É opcional e tem a finalidade de identificar a empresa ou local de desenvolvimento. |
+| DATE-WRITTEN | É opcional e tem a finalidade de identificar a data de criação do código. |
+| DATE-COMPILED | É opcional e tem a finalidade de identificar data de compilação do código. |
+| SECURITY | É opcional e tem a finalidade de descrever informações sobre nive de segurança utilizada no código. |
+| REMARKS | É opcional e tem por finalidade descrever informações sobre o nível de segurança utilizado no programa. |
+
+
 
 | Comando | descrição |
 |-----|-----|
