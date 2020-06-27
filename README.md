@@ -22,7 +22,11 @@
 
 | Sistema | Fornecedor | Compilador | 
 |---|---|---|
-| Windows / UNIX | ![](https://br.web.img3.acsta.net/medias/nmedia/18/70/78/60/19111647.jpg)) | desc |
+| Windows / UNIX | Open Source | GNU COBOL |
+| AIX | ![IBM](https://github.com/ThreeDP/COBOL-WINS/blob/master/img/logos/ibm.jpg) | COBOL for AIX |
+| System z mainframe | ![IBM](https://github.com/ThreeDP/COBOL-WINS/blob/master/img/logos/ibm.jpg) | Enterprise COBOL |
+| System / midrange | ![IBM](https://github.com/ThreeDP/COBOL-WINS/blob/master/img/logos/ibm.jpg) | ILE COBOL |
+| MCP mainframe | ![UNISYS](https://github.com/ThreeDP/COBOL-WINS/blob/master/img/logos/unisys.png) | UCS COBOL |
 ### Palavras Reservadas
 
 | Comando | descrição |
