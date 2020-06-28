@@ -109,5 +109,8 @@ Isso inclui detalhes como:
 # Referêcias
 
 GnuCOBOL - Augusto Manzano
-Material IBM COBOL
+Material CURSO IBM COBOL
+https://www.tutorialspoint.com/cobol/cobol_quick_guide.htm
+https://www.ibm.com/support/knowledgecenter/zosbasics/com.ibm.zos.zappldev/zappldev_37.htm
+http://www.mainframes360.com/2009/08/cobol-tutorial-compiling-linking-and.html
 
