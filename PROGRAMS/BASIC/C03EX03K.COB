@@ -1,12 +1,12 @@
        IDENTIFICATION DIVISION.
-      *Convers„o de Moeda Dolar para Real.
+      *Convers√£o de Moeda Dolar para Real.
        PROGRAM-ID. C03EX03K.
 
        ENVIRONMENT DIVISION.
        CONFIGURATION SECTION.
        SPECIAL-NAMES.
       * Compilar com simbolo correto no mainframe. $BRL
-           CURRENCY SIGN IS "B" WITH PICTURE SYMBOL "$".
+           CURRENCY SIGN IS "$BRL" WITH PICTURE SYMBOL "$".
 
        DATA DIVISION.
        LOCAL-STORAGE SECTION.
@@ -18,12 +18,10 @@
        PROCEDURE DIVISION.
        MAIN-PROCEDURE.
             DISPLAY "Entre o valor em Dolar: " WITH NO ADVANCING
-            DISPLAY X"0D"
             ACCEPT VALOR-EM-DOLAR
 
-            DISPLAY "Entre o valor da contaÁ„o do dia: " WITH NO
+            DISPLAY "Entre o valor da conta√ß√£o do dia: " WITH NO
             ADVANCING
-            DISPLAY X"0D"
             ACCEPT COTACAO-DOLAR
 
             MULTIPLY VALOR-EM-DOLAR BY COTACAO-DOLAR GIVING
