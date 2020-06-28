@@ -11,7 +11,6 @@
             DISPLAY "---------------------------"
             DISPLAY "Entre um valor em Celsius: " WITH NO ADVANCING
             DISPLAY X"0D"
-            ACCEPT CELSIUS
             COMPUTE FAHREN = (9 * CELSIUS + 160) / 5
             MOVE FAHREN TO RESULT
             DISPLAY "Fahrenheit: " RESULT
