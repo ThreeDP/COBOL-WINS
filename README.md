@@ -83,6 +83,12 @@ Isso inclui detalhes como:
       
 
 ### Palavras Reservadas
+> Aqui pretendo deixar somente as palavras reservadas que achar mais necessárias e comuns.
+
+    Você pode encontrar aqui a uma lista de palavras reservadas para o ambiente de desenvolvimento Enterprise COBOL:
+    
+[](https://www.ibm.com/support/knowledgecenter/SS6SG3_6.3.0/lr/ref/rlres.html)
+
 | Comando identification Division | descrição |
 |-----|-----|
 | PROGRAM-ID | É obrigátorio e tem a finalidade de identificar na memória o nome de referência do programa mas somente os oitos primeiros caracteres serão significativos |
