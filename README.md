@@ -87,7 +87,7 @@ Isso inclui detalhes como:
 
     Você pode encontrar aqui a uma lista de palavras reservadas para o ambiente de desenvolvimento Enterprise COBOL:
     
-[](https://www.ibm.com/support/knowledgecenter/SS6SG3_6.3.0/lr/ref/rlres.html)
+[**Reserved Words**](https://www.ibm.com/support/knowledgecenter/SS6SG3_6.3.0/lr/ref/rlres.html)
 
 | Comando identification Division | descrição |
 |-----|-----|
