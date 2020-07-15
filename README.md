@@ -1,4 +1,4 @@
-# Common Business Oriented Language (COBOL)
+# Common Business Oriented Language (COBOL) With Enterprise COBOL
 > Proposta no ano de 1959 a linguagem é á linguagem COBOL tem grande influência em nosso dia a dia e nem se quer percebemos, isso por que ela está por trás de grande parte das operações bancárias e compras que fazemos, e embora entre outras linguagens sua fama não sejá a das maiores conserteza ela é uma das mais importantes linguagens atualmente.
 
 > A linguagem veio com o objetivo de ser compativel com diferentes tiposs de arquiteturas de computadores saindo um pouco do objetivo das linguagens da época que era voltadas para uso cientifico e matemático.
@@ -111,7 +111,10 @@ Isso inclui detalhes como:
 | STOP "Message" | Usado para fazer a pausa da execução de um programa COBOL enquanto aguarda a execução de alguma ação de algum operador. Normalmente usado juntamento com uma mensagem a ser exibida na tela. EX: STOP "Monte a fita". Raramente usado hoje em dia. |
 | STOP RUN | Usado para parar a execução de um programa. Normalmente usado no final do programa. |
 
+# JCL
+> Mais informações sobre JCL
 
+[JCL](https://www.ibm.com/support/knowledgecenter/zosbasics/com.ibm.zos.zconcepts/zconc_whatisjcl.htm)
 # Referêcias
 
 GnuCOBOL - Augusto Manzano
