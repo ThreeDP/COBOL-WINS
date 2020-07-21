@@ -111,6 +111,34 @@ Isso inclui detalhes como:
 | STOP "Message" | Usado para fazer a pausa da execução de um programa COBOL enquanto aguarda a execução de alguma ação de algum operador. Normalmente usado juntamento com uma mensagem a ser exibida na tela. EX: STOP "Monte a fita". Raramente usado hoje em dia. |
 | STOP RUN | Usado para parar a execução de um programa. Normalmente usado no final do programa. |
 
+# Declaração de variaveis
+
+| Nivel de Declaração | Descrição |
+|-----|-----|
+| 88 | Usado para declarar nomes condicionais, que servem como uma forma de validar uma condição, veja o exemplo abaixo. |
+
+
+        WORLING-STORAGE.
+        01 USA-STATE          PIC X(2) VALUES SPACES.
+          88 STATE            VALUE 'TX'.                // Declara como teste a sigla TX de TEXAS
+       *....
+        PROCEDURE DIVISION.
+       *....
+       *------------- Resulta em FALSO para a condição --------------
+       *....
+        MOVE 'AZ' TO STATE.
+        IF STATE DISPLAY 'The State is Texas'
+          ELSE DISPLAY   'The State is not Texas'
+        END-IF.
+       *....
+       *----------- Resulta em VERDADEIRO para a condição -----------  
+       *....
+        MOVE 'AZ' TO STATE.
+        IF STATE DISPLAY 'The State is Texas'        // Exibe texto se o valor na variavel for igual a 'TX'
+          ELSE DISPLAY   'The State is not Texas'
+        END-IF.
+        
+
 # JCL
 > Mais informações sobre JCL
 
