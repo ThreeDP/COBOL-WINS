@@ -118,6 +118,8 @@ Isso inclui detalhes como:
 | 88 | Usado para declarar nomes condicionais, que servem como uma forma de validar uma condição, veja o exemplo abaixo. |
 
 
+**Exemplo de aplicação do nivel 88:**
+
         WORLING-STORAGE.
         01 USA-STATE          PIC X(2) VALUES SPACES.
           88 STATE            VALUE 'TX'.                // Declara como teste a sigla TX de TEXAS
@@ -138,6 +140,7 @@ Isso inclui detalhes como:
           ELSE DISPLAY   'The State is not Texas'
         END-IF.
         
+***
 
 # JCL
 > Mais informações sobre JCL
